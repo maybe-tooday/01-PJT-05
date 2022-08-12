@@ -9,7 +9,7 @@ def pprint(list):
     for _ in range(len(list)):
         print(list[_])
 
-dx = [-1,0,0,1] #가로세로로만 탐색
+dx = [-1,0,0,1] #가로, 세로로만 탐색
 dy = [0,-1,1,0]
 
 T = int(input())
