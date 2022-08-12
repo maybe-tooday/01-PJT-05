@@ -2,6 +2,8 @@ import sys
 
 sys.stdin = open("_등산로조성.txt")
 
+#K값이 없을때 코드
+
 def pprint(list):
     for _ in range(len(list)):
         print(list[_])
@@ -48,7 +50,7 @@ for testcase in range(T):
 
                         if cnt + 1 > cnt_sum :
                             cnt_sum = cnt + 1
-                        # print(stack)
+                        #print(stack)
                         #visited[ny][nx] = True
 
     print(cnt_sum)
