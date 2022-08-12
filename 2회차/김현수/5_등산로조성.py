@@ -26,7 +26,7 @@ for testcase in range(1,T+1):
         if max(graph[num]) > max_:
             max_ = max(graph[num]) #dfs탐색 시작점 획득
     cnt_sum = 0
-    for k in range(1,K+1):   #0~K 까지   
+    for k in range(K+1):   #0~K 까지   
         for i in range(N):
             for j in range(N):
                 subgraph = copy.deepcopy(graph) # -> 리스트를 복사하는 법을 찾아서 풀수 있었습니다.
