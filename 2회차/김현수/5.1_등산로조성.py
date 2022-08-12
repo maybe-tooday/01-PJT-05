@@ -2,7 +2,8 @@ import sys
 
 sys.stdin = open("_등산로조성.txt")
 
-#K값이 없을때 코드
+#K 값이 없을때 코드
+#강사님들이 기본적인 구조를 만들고 하나씩 추가하셔서 조건을 뺴고 기본구조를 만들기 위해 제작하였습니다
 
 def pprint(list):
     for _ in range(len(list)):

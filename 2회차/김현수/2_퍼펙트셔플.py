@@ -7,7 +7,7 @@ T = int(input())
 
 for num in range(1,T+1):
     N = int(input())
-    N1 = N//2 + N%2 #2로 나눈몫 + 2로 나눈나머지 
+    N1 = (N // 2) + (N % 2) #2로 나눈몫 + 2로 나눈나머지 -> 짝수와 홀수를 나누기 위한 변수
 
     queue = list(input().split())
     queue_A = queue[:N1] 
